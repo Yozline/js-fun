@@ -36,3 +36,7 @@ body {
     box-shadow: 1px 1px 5px #BF264FAA,
                 1px 1px 15px #BF264FAA;
 }
+
+.card:first-child {
+    grid-column-end:  span 6;
+}
