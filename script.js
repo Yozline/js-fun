@@ -15,7 +15,7 @@ box.innerHTML = "<div class=\"card\"></div>"
 
 for (let val of data) {
     box.innerHTML += `<div class="card" style="background-color: ${colors[getNumber(colors.length)-1]}">${optimizeNumber(val)}</div>`;
-}
+}1
 
 function showTime(day = new Date(2023,0,1)) {
 
